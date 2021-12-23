@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border-bot {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.menu {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.news__covid span {
+    color: blue;
+}
+
+.news__covid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.weather {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.filters {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.filters__body span {
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}

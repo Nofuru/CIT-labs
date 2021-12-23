@@ -1,0 +1,25 @@
+.urav {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.urav input {
+    width: 50px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+}
+
+#btn {
+    line-height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
