@@ -1,0 +1,13 @@
+.btn {
+    width: 300px;
+    line-height: 36px;
+    margin: 50px auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: teal;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}

@@ -1,0 +1,42 @@
+.card {
+    width: 100%;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cardHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.headTitle {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.cardBody {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.bodyItem {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text {
+    line-height: 24px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
